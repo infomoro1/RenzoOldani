@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaggio a sistema superiore</title>
+    <style>
+        body {
+            background-color: #14283c;
+            margin: 0;
+            padding: 1.5rem;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            background-color: #11caff;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            color: #010101;
+            word-break: break-word;
+        }
+        #installationTable {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #788cb4;
+            box-sizing: border-box;
+            table-layout: auto;
+            word-break: break-word;
+        }
+        #installationTable th, #installationTable td {
+            border: none;
+            padding: 1rem;
+            vertical-align: top;
+            word-break: break-word;
+        }
+        #installationTable th {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            color: #010101;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1.5rem;
+        }
+        .image-title {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            font-size: 2em;
+        }
+        .step-description {
+            margin-top: 0.5rem;
+            font-size: 1.2em;
+        }
+        /* Responsive: ridimensiona contenitore, testo e padding su schermi piccoli */
+        @media (max-width: 600px) {
+            .container {
+                padding: 0.5rem;
+            }
+            #installationTable th, #installationTable td {
+                padding: 0.5rem;
+                font-size: 1em;
+            }
+            h1 {
+                font-size: 1.3em !important;
+                padding: 0.5rem 0;
+            }
+            .image-title, .step-description {
+                font-size: 1em !important;
+            }
+        }
+        @media print {
+            #installationTable th, #installationTable td {
+                border: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Passaggio a sistema superiore</h1>
+        <table id="installationTable">
+            <thead>
+                <tr>
+                    <th>per Renzo Oldani</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr onclick="window.open('https://www.notebookcheck.it/Lenovo-ThinkPad-T410-serie.43325.0.html', '_blank');">
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">Opzione 1 - 250€ inclusi lavori</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">come da preventivo<br>14 pollici con 6gb di RAM <br>e 250GB di disco allo stato solido</div>
+                        <img src="IMG/4.jpg" alt="Opzione 1 - 250€ inclusi lavori">
+                    </td>
+                </tr>
+            
+                <tr onclick="window.open('https://www.notebookcheck.it/Recensione-HP-EliteBook-8740w-Mobile-Workstation.42574.0.html', '_blank');">
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">Opzione 2 - 330€ incluso lavoro</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">Portatile 17" da grafica<br>con 8gb di RAM e disco allo stato solido da 250gB</div>
+                        <img src="IMG/1.jpg" alt="Opzione 2 - 330€ incluso lavoro">
+                    </td>
+                </tr>
+            
+                <tr >
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">Opzione 3 - 350€ incluso lavoro</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">17 pollici<br>8GB ram e 250GB SSD<br>più nuovo ma di fascia più bassa</div>
+                        <img src="IMG/2.jpg" alt="Opzione 3 - 350€ incluso lavoro">
+                    </td>
+                </tr>
+            
+                <tr onclick="window.open('https://www.notebookcheck.it/HP-ProBook-6570b-B6P89EA.95668.0.html', '_blank');">
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">OPZIONE 3 - 280€ TUTTO INCLUSO</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">Notebook 15" HP<br>250gB disco allo statosolido<br>6gB RAM<br>espandibile fino a 16GB<br>facile manutenzione</div>
+                        <img src="IMG/3.jpg" alt="OPZIONE 3 - 280€ TUTTO INCLUSO">
+                    </td>
+                </tr>
+            
+                <tr onclick="window.open('https://www.notebookcheck.it/Lenovo-ThinkPad-T530.85471.0.html', '_blank');">
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">Opzione 4 - 300€ tutto incluso</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">Notebook 15" Lenovo<br>250gB disco allo stato solido<br>8gB RAM<br>espandibile fino a 16GB<br>facile manutenzione<br>un po' più recente</div>
+                        <img src="IMG/5.jpg" alt="Opzione 4 - 300€ tutto incluso">
+                    </td>
+                </tr>
+            
+                <tr onclick="window.open('https://wa.me/393496887076?text=Ciao.%20ho%20visto%20i%20portatili.%20Mi%20piace%20', '_blank');">
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;"> Contattami su Whatsapp </div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">cliccando qui - solo messaggi di testo perfavore.</div>
+                        <img src="IMG/5.png" alt=" Contattami su Whatsapp ">
+                    </td>
+                </tr>
+            
+                <tr >
+                    <td>
+                        <div class="image-title" style="font-family: Arial, sans-serif; font-size: 50px; color: #010101; font-weight: bold; font-style: italic; text-align: center;">Tutti i portatili</div>
+                        <div class="step-description" style="font-family: Arial, sans-serif; font-size: 35px; color: #010101; font-weight: normal; font-style: normal; text-align: center;">montano Intel Core i5</div>
+                        <img src="IMG/4.png" alt="Tutti i portatili">
+                    </td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
